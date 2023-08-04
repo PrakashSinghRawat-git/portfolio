@@ -15,8 +15,10 @@ import {
     supabase,
     next,
     texty,
-    jobit,
-    tripguide,
+    linkedIn,
+    email,
+    leetcode,
+    instagram,
 } from "@/assets";
 
 export const navLinks = [
@@ -53,6 +55,32 @@ const services = [
     },
 ];
 
+
+
+const socialLinks = [
+    {
+        name: "Linked In",
+        icon: linkedIn,
+        href: "www.linkedin.com/in/prakash-singh-rawat-a48b11254",
+    },
+    {
+        name: "Instagram",
+        icon: instagram,
+        href: "https://instagram.com/prakash_rawat_299"
+    },
+    {
+        name: "Leetcode",
+        icon: leetcode,
+        href: "https://leetcode.com/kalki299/",
+
+    },
+    {
+        name: "Email",
+        icon: email,
+        href: "mailto:prakashsinghrawatuk5ile@gmail.com",
+
+    },
+];
 const technologies = [
     {
         name: "HTML 5",
@@ -97,10 +125,7 @@ const technologies = [
         name: "supabase",
         icon: supabase,
     },
-    {
-        name: "git",
-        icon: git,
-    },
+   
 ];
 
 const experiences = [
@@ -141,7 +166,6 @@ const testimonials = [
         company: "carskarkhana",
         image: "https://randomuser.me/api/portraits/women/4.jpg",
     },
-    
 ];
 
 const projects = [
@@ -164,10 +188,19 @@ const projects = [
             },
         ],
         image: texty,
-        source_code_link: "https://github.com/PrakashSinghRawat-git/texty-frontend",
+        source_code_link:
+            "https://github.com/PrakashSinghRawat-git/texty-frontend",
         site_link: "https://texty-topaz.vercel.app/",
     },
-    
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export {
+    services,
+    technologies,
+    socialLinks,
+    experiences,
+    testimonials,
+    projects,
+
+
+};

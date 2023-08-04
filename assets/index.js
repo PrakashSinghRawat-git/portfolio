@@ -34,6 +34,11 @@ import texty from "./texty.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import email from "./email.png";
+import instagram from "./instagram.png";
+import linkedIn from "./linkedIn.png";
+import leetcode from "./leetcode.png";
+
 export {
     logo,
     backend,
@@ -67,4 +72,8 @@ export {
     supabase,
     next,
     link,
+    email,
+    leetcode,
+    instagram,
+    linkedIn,
 };
