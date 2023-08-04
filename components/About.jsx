@@ -46,20 +46,20 @@ const About = () => {
                 variants={fadeIn("", "", 0.1, 1)}
                 className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] "
             >
-                I'm a student of ECE(AI+ML) of 2026 batch at
+                I&apos;m a student of ECE(AI+ML) of 2026 batch at
                 <span className="cursor-pointer font-semibold text-sky-500">
                     <Link href="http://nsut.ac.in/" ></Link> Netaji Subhash
                     University of Technology
                 </span>
-                . I'm a full stack web-developer, having built many project
-                using React, nextJs, Node.js, firebase and MongoDB. I'm a
+                . I&apos;m a full stack web-developer, having built many project
+                using React, nextJs, Node.js, firebase and MongoDB. I&apos;m a
                 passionate and quick learner with a solid foundation in
                 Javascript. I am seeking opportunities to join a fast-paced and
                 innovative company or people where I can leverage my skills to
-                work on exciting projects. Whether it's collaborating with a
+                work on exciting projects. Whether it&apos;s collaborating with a
                 team or contributing to a dynamic community, I am eager to take
                 on challenges and build cutting-edge web products that make a
-                positive impact. Let's create the future together!
+                positive impact. Let&apos;s create the future together!
             </motion.p>
 
             <div className="mt-20 flex flex-wrap gap-10 ">
