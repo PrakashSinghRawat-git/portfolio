@@ -61,10 +61,10 @@ const socialLinks = [
     {
         name: "Linked In",
         icon: linkedIn,
-        href: "www.linkedin.com/in/prakash-singh-rawat-a48b11254",
+        href: "https://www.linkedin.com/in/prakash-singh-rawat-a48b11254",
     },
     {
-        name: "Instagram",
+                name: "Instagram",
         icon: instagram,
         href: "https://instagram.com/prakash_rawat_299"
     },
