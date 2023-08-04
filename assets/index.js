@@ -39,6 +39,8 @@ import instagram from "./instagram.png";
 import linkedIn from "./linkedIn.png";
 import leetcode from "./leetcode.png";
 
+import herobg from "./herobg.png"
+
 export {
     logo,
     backend,
@@ -76,4 +78,5 @@ export {
     leetcode,
     instagram,
     linkedIn,
+    herobg
 };

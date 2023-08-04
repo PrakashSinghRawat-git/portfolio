@@ -9,14 +9,22 @@ import {
     Tech,
     Works,
     StarsCanvas,
-    SocialLinks
+    SocialLinks,
 } from "../components";
+
+import { herobg } from "@/assets";
 
 export default function Home() {
     return (
-        <div className="relative z-0 bg-primary">
-            <div className="bg-red-500">hello</div>
-            <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
+        <div className="z-0 bg-primary relative overflow-x-hidden">
+            <div className="bg-cover bg-no-repeat bg-center relative h-[80%]">
+                <Image
+                    src={herobg}
+                    alt="Hero Background"
+                    layout="fill"
+                    objectFit="cover"
+                    objectPosition="center"
+                />
                 <Navbar />
                 <Hero />
             </div>
@@ -26,7 +34,7 @@ export default function Home() {
             <Works />
             <Feedbacks />
             <div className="relative z-0">
-                <SocialLinks/>
+                <SocialLinks />
                 <Contact />
                 <StarsCanvas />
             </div>
