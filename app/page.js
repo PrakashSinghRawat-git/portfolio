@@ -17,6 +17,9 @@ import { herobg } from "@/assets";
 export default function Home() {
     return (
         <div className="z-0 bg-primary relative overflow-x-hidden">
+            
+           
+
             <div className="bg-cover bg-no-repeat bg-center relative h-[80%]">
                 <Image
                     src={herobg}

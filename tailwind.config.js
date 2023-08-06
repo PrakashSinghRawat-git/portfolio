@@ -25,6 +25,9 @@ module.exports = {
             backgroundImage: {
                 "hero-pattern": "url('/src/assets/herobg.png')",
             },
+            transitionDuration:{
+                '4':'4000ms',
+            }
         },
     },
     plugins: [],
