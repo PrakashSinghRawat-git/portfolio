@@ -22,7 +22,7 @@ const Tech = () => {
                         //     <BallCanvas icon={technology.icon} />
                         // </div>
 
-                        <div className="flex flex-col key={technology.name}">
+                        <div className="flex flex-col" key={technology.name}>
                             <div
                                 
                                 className="relative w-[100px] h-[100px] flex justify-center items-center bg-black overflow-hidden rounded-full my-10 mx-auto"
