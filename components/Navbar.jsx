@@ -5,15 +5,23 @@ import Image from "next/image";
 import { styles } from "@/app/styles";
 import { navLinks } from "../constants";
 import { logo, menu, close } from "../assets";
+import { saveAs } from "file-saver";
 
 const Navbar = () => {
     const [active, setActive] = useState("");
     const [toggle, setToggle] = useState(false);
+
+    const downloadResumeHandler = () => {
+        const pdfUrl =
+            "https://www.mediafire.com/file/13butuday73fgq7/prakash-resume.pdf/file";
+
+        saveAs(pdfUrl, "prakash-resume.pdf");
+    };
     return (
         <nav
-            className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-primary`}
+            className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-primary `}
         >
-            <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
+            <div className="w-full flex justify-between items-center max-w-7xl  gap-10 mx-auto ">
                 <Link
                     href="/"
                     className="flex items-center gap-2"
@@ -29,11 +37,13 @@ const Navbar = () => {
                         alt="logo"
                         className="w-9 h-9 object-contain"
                     ></Image>
-                    <p className="text-white text-[18px] font-bold cursor-pointer flex">
-                        Prakash &nbsp;<span className="sm:block hidden"> Rawat</span>
+                    <p className="text-white text-[18px] font-bold cursor-pointer flex ">
+                        <span>Prakash &nbsp;</span>
+                        <span className="md:block hidden"> Rawat
+                        </span>
                     </p>
                 </Link>
-                <ul className="list-none hidden sm:flex flex-row gap-10">
+                <ul className="list-none hidden sm:flex flex-row sm:gap-5 gap-10 justify-end  text-[18px] ">
                     {navLinks.map((link, index) => {
                         return (
                             <li
@@ -41,7 +51,7 @@ const Navbar = () => {
                                     active === link.title
                                         ? "text-white"
                                         : "text-secondary"
-                                } hover:text-white text-[18px] font-medium cursor-pointer`}
+                                } hover:text-white  font-medium cursor-pointer`}
                                 key={link.id}
                                 onClick={() => {
                                     setActive(link.title);
@@ -51,6 +61,13 @@ const Navbar = () => {
                             </li>
                         );
                     })}
+                    <li
+                        className="text-sky-300
+                         hover:text-white text-[18px] font-medium cursor-pointer text-sm flex items-center underline underline-offset-4"
+                        onClick={downloadResumeHandler}
+                    >
+                        Download Resume
+                    </li>
                 </ul>
 
                 {/* mobile navigation */}

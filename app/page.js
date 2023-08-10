@@ -16,18 +16,17 @@ import { herobg } from "@/assets";
 
 export default function Home() {
     return (
+        
         <div className="z-0 bg-primary relative overflow-x-hidden">
-            
-           
-
             <div className="bg-cover bg-no-repeat bg-center relative h-[80%]">
-                <Image
+                {/* <Image
                     src={herobg}
                     alt="Hero Background"
                     layout="fill"
                     objectFit="cover"
                     objectPosition="center"
-                />
+                /> */}
+                 <StarsCanvas />
                 <Navbar />
                 <Hero />
             </div>

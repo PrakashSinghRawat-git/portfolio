@@ -19,6 +19,8 @@ import {
     email,
     leetcode,
     instagram,
+    education,
+    coding,
 } from "@/assets";
 
 export const navLinks = [
@@ -55,8 +57,6 @@ const services = [
     },
 ];
 
-
-
 const socialLinks = [
     {
         name: "Linked In",
@@ -64,21 +64,19 @@ const socialLinks = [
         href: "https://www.linkedin.com/in/prakash-singh-rawat-a48b11254",
     },
     {
-                name: "Instagram",
+        name: "Instagram",
         icon: instagram,
-        href: "https://instagram.com/prakash_rawat_299"
+        href: "https://instagram.com/prakash_rawat_299",
     },
     {
         name: "Leetcode",
         icon: leetcode,
         href: "https://leetcode.com/kalki299/",
-
     },
     {
         name: "Email",
         icon: email,
         href: "mailto:prakashsinghrawatuk5ile@gmail.com",
-
     },
 ];
 const technologies = [
@@ -125,19 +123,18 @@ const technologies = [
         name: "supabase",
         icon: supabase,
     },
-   
 ];
 
 const experiences = [
     {
         title: "My Education",
         company_name: "",
-        icon: "",
+        icon: education,
         iconBg: "#383E56",
         date: "",
         points: [
             "Passed my 10th class with 95.6% marks from Govt. Boys Sr. Sec. School, Delhi in 2019",
-            "Passed my 10th class with 95.6% marks from Rajkiya Pratibha Vikas Vidyalaya, Delhi in 2019",
+            "Passed my 12th class with 94.6% marks from Rajkiya Pratibha Vikas Vidyalaya, Delhi in 2019",
             "Pursuing my degre in ECE(ai+ml) from NETAJI SUBHASH UNIVERSITY OF TECHNOLOGY, DELHI (2022-26 batch)",
         ],
     },
@@ -145,7 +142,7 @@ const experiences = [
     {
         title: "Full stack Developer",
         company_name: "",
-        icon: "",
+        icon: coding,
         iconBg: "#E6DEDD",
         date: "J",
         points: [
@@ -201,6 +198,4 @@ export {
     experiences,
     testimonials,
     projects,
-
-
 };

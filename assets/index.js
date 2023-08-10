@@ -39,7 +39,9 @@ import instagram from "./instagram.png";
 import linkedIn from "./linkedIn.png";
 import leetcode from "./leetcode.png";
 
-import herobg from "./herobg.png"
+import herobg from "./herobg.png";
+import education from "./education.png";
+import coding from "./coding.png";
 
 export {
     logo,
@@ -78,5 +80,7 @@ export {
     leetcode,
     instagram,
     linkedIn,
-    herobg
+    herobg,
+    education,
+    coding,
 };
