@@ -12,8 +12,8 @@ const Navbar = () => {
     const [toggle, setToggle] = useState(false);
 
     const downloadResumeHandler = () => {
-        const pdfUrl =
-            "https://www.mediafire.com/file/13butuday73fgq7/prakash-resume.pdf/file";
+        // const pdfUrl = "https://www.mediafire.com/file/13butuday73fgq7/prakash-resume.pdf/file";
+        const pdfUrl = "/resume.pdf";
 
         saveAs(pdfUrl, "prakash-resume.pdf");
     };
@@ -39,8 +39,7 @@ const Navbar = () => {
                     ></Image>
                     <p className="text-white text-[18px] font-bold cursor-pointer flex ">
                         <span>Prakash &nbsp;</span>
-                        <span className="md:block hidden"> Rawat
-                        </span>
+                        <span className="md:block hidden"> Rawat</span>
                     </p>
                 </Link>
                 <ul className="list-none hidden sm:flex flex-row sm:gap-5 gap-10 justify-end  text-[18px] ">
@@ -54,10 +53,10 @@ const Navbar = () => {
                                 } hover:text-white  font-medium cursor-pointer`}
                                 key={link.id}
                                 onClick={() => {
-                                    setActive(link.title);
+                                    setActive(link.name);
                                 }}
                             >
-                                <Link href={`#${link.id}`}>{link.title}</Link>
+                                <Link href={`#${link.id}`}>{link.name}</Link>
                             </li>
                         );
                     })}

@@ -43,7 +43,9 @@ import herobg from "./herobg.png";
 import education from "./education.png";
 import coding from "./coding.png";
 
+import ngoSite from "./ngoSite.png";
 export {
+    ngoSite,
     logo,
     backend,
     creator,

@@ -21,6 +21,7 @@ import {
     instagram,
     education,
     coding,
+    ngoSite
 } from "@/assets";
 
 export const navLinks = [
@@ -166,6 +167,33 @@ const testimonials = [
 ];
 
 const projects = [
+    {
+        name: "NGO Website",
+        description:
+            "A full-stack website for Prayan NGO. I used React js and Next 13 for frontend and express js for backend. I used mongodb, firebase firestore and storage for database and storage and Clerk js for authentication.",
+        tags: [
+            {
+                name: "react",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "express",
+                color: "green-text-gradient",
+            },
+            {
+                name: "mongodb",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "website",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: ngoSite,
+        source_code_link:
+            "https://github.com/PrakashSinghRawat-git/prayan-site-final-next",
+        site_link: "https://www.prayanfoundation.in/",
+    },
     {
         name: "Text Formatter",
         description:
