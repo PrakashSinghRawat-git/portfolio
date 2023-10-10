@@ -30,7 +30,6 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import texty from "./texty.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -43,9 +42,15 @@ import herobg from "./herobg.png";
 import education from "./education.png";
 import coding from "./coding.png";
 
-import ngoSite from "./ngoSite.png";
+import texty from "./projects/texty.png";
+import ngoSite from "./projects/ngoSite.png";
+import ranthub from "./projects/ranthub.png";
+
 export {
+    texty,
     ngoSite,
+    ranthub,
+
     logo,
     backend,
     creator,
@@ -71,7 +76,6 @@ export {
     shopify,
     starbucks,
     tesla,
-    texty,
     jobit,
     tripguide,
     firebase,

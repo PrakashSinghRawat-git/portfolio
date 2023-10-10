@@ -14,14 +14,16 @@ import {
     firebase,
     supabase,
     next,
-    texty,
     linkedIn,
     email,
     leetcode,
     instagram,
     education,
     coding,
-    ngoSite
+
+    texty,
+    ngoSite,
+    ranthub
 } from "@/assets";
 
 export const navLinks = [
@@ -216,6 +218,29 @@ const projects = [
         source_code_link:
             "https://github.com/PrakashSinghRawat-git/texty-frontend",
         site_link: "https://texty-topaz.vercel.app/",
+    },
+    {
+        name: "Rant Hub",
+        description:
+            "An online chat forum where users can post their rants on various topics and others will also add their own opinions on it. It is a full stack web application built using React, MongoDB and Firebase.",
+        tags: [
+            {
+                name: "react",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "next js",
+                color: "green-text-gradient",
+            },
+            {
+                name: "firebase",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: ranthub,
+        source_code_link:
+            "https://github.com/PrakashSinghRawat-git/rant-forum-gdsc",
+        site_link: "https://ranthub.vercel.app/",
     },
 ];
 
