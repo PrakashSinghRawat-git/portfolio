@@ -222,7 +222,7 @@ const projects = [
     {
         name: "Rant Hub",
         description:
-            "An online chat forum where users can post their rants on various topics and others will also add their own opinions on it. It is a full stack web application built using React, MongoDB and Firebase.",
+            "An online chat forum where users can post their rants on various topics and others will also add their own opinions on it. It is a full stack web application built using React, Next js and Firebase.",
         tags: [
             {
                 name: "react",
